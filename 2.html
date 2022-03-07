@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <h2 style="text-align: center;">Tabel Nilai Mahasiswa</h2>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <table border="1" id="example" class="display" style="width: 1335px;">
+        <thead>
+            <tr>
+                <th rowspan="2" style="text-align: left;">NPM</th>
+                <th rowspan="2" style="text-align: left;">Nama Lengkap</th>
+                <th colspan="10">Absen</th>
+                <th colspan="10">Tugas</th>
+                <th rowspan="2" style="text-align: left;">UTS</th>
+                <th rowspan="2" style="text-align: left;">UAS</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010631100</td>
+                <td>Anandito Rafi</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>90</td>
+                <td>85</td>
+                <td>93</td>
+                <td>76</td>
+                <td>80</td>
+                <td>95</td>
+                <td>90</td>
+                <td>80</td>
+                <td>87</td>
+                <td>88</td>
+                <td>88</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>2010631200</td>
+                <td>Azka Rama</td>
+                <td>H</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>97</td>
+                <td>90</td>
+                <td>85</td>
+                <td>99</td>
+                <td>70</td>
+                <td>80</td>
+                <td>95</td>
+                <td>90</td>
+                <td>80</td>
+                <td>80</td>
+                <td>80</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>2010631300</td>
+                <td ">Sylva Nia </td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>90</td>
+                <td>85</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+                <td>95</td>
+                <td>90</td>
+                <td>80</td>
+                <td>80</td>
+                <td>88</td>
+                <td>88</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>2010631400</td>
+                <td>Doni Jaya</td>
+                <td>A</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>A</td>
+                <td>A</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>90</td>
+                <td>85</td>
+                <td>60</td>
+                <td>70</td>
+                <td>87</td>
+                <td>95</td>
+                <td>90</td>
+                <td>86</td>
+                <td>80</td>
+                <td>98</td>
+                <td>98</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>2010631500</td>
+                <td >Karim Ade</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>A</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>A</td>
+                <td>H</td>
+                <td>90</td>
+                <td>70</td>
+                <td>80</td>
+                <td>95</td>
+                <td>90</td>
+                <td>80</td>
+                <td>80</td>
+                <td>88</td>
+                <td>88</td>
+                <td>88</td>
+                <td>90</td>
+                <td>99</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th style=" text-align: left;">NPM</th>
+                <th style="text-align: left;">Nama Lengkap </th>
+                <th colspan=" 10">Absen</th>
+                <th colspan="10">Tugas</th>
+                <th style="text-align: left;">UTS</th>
+                <th style="text-align: left;">UAS</th>
+            </tr>
+            </tfoot>
+    </table>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+</body>
+
+</html>
